@@ -1,8 +1,8 @@
 const data = {
-  product: [
+  products: [
     {
       name: "Dior handbag",
-      slug: "dior handbag",
+      slug: "dior-handbag",
       category: "HandBag",
       image: "/images/bag1.jpg",
       price: 500,
@@ -17,7 +17,7 @@ const data = {
     },
     {
       name: "Gucci handbag",
-      slug: "gucci handbag",
+      slug: "gucci-handbag",
       category: "HandBag",
       image: "/images/bag2.jpg",
       price: 700,
