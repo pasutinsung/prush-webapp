@@ -14,11 +14,6 @@ const Header = () => {
             <li>
               <Menu />
             </li>
-            <li>
-              <Link className="btn btn-ghost rounded-btn" href="/signin">
-                Sign in
-              </Link>
-            </li>
           </ul>
         </div>
       </nav>

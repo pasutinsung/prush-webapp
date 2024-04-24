@@ -13,7 +13,7 @@ const productSchema = new mongoose.Schema(
     countInStock: { type: Number, required: true, default: 0 },
     description: { type: String, required: true },
     isFeatured: { type: Boolean, default: false },
-    banner: String,
+    banner: { type: String, required: false },
   },
   {
     timestamps: true,
@@ -30,7 +30,7 @@ export type Product = {
   name: string;
   slug: string;
   image: string;
-  baner?: string;
+  banner?: string;
   price: number;
   brand: string;
   description: string;
